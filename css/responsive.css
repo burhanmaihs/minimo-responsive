@@ -1,0 +1,152 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-expand-md .navbar-nav .nav-link{
+    padding: 0px;
+  }
+  .newsletter {
+    height: 16vh;
+  }
+  .signup-form{
+    padding-top: 4vh;
+    width: 358px;
+  }
+  .signup-form h1 {
+    font-size: 30px !important;
+  }
+  .signup-form input {
+    height: 32px;
+    font-size: 14px;
+  }
+  .paperplane {
+    right: 1%;
+    bottom: 2%;
+  }
+  .banner-text h1 {
+    font-size: 32px !important;
+    margin: -20px 0px 20px 0px;
+  }
+  .banner-text p{
+    margin: 20px 0px 30px 0px;
+  }
+  .post .col-md-6 {
+    padding-bottom: 40px;
+  }
+  .post .col-md-6 h1{
+    font-size: 30px !important;
+    padding-bottom: 0px;
+  }
+  .post .row .col-md-6 span{
+    font-size: 15px;
+  }
+  .post .col-md-6 p {
+    font-size: 16px;
+    padding: 17px 0px 10px 0px;
+    margin: 0;
+  }
+  .gallery-2 {
+    margin: 40px 0px 0px 0px;
+  }
+  button{
+    margin: 10px 0px 50px 0px;
+    padding: 15px 35px !important;
+  }
+  footer ul li {
+    margin-left: 17px;
+    font-weight: 400;
+}
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  button{
+    padding: 3px 5px !important;
+    margin: 10px 0px 20px 0px;
+  }
+  .banner-text {
+    padding: 10px 22px;
+  }
+  .banner-text p{
+    margin: 12px 0px;
+    font-size: 17px;
+  }
+  .banner-text h1 {
+    margin: 0px 0px 20px 0px;
+    font-size: 32px !important;
+  }
+  .post {
+    padding: 10px 15px;
+  }
+  .post .col-md-6 {
+    padding-bottom: 40px;
+  }
+  .post .col-md-6 p{
+    font-size: 17px;
+    padding-top: 18px;
+    margin: 0px 0px 5px 0px;
+  }
+  .post .col-md-6 h1 {
+    margin: 0px 0px 20px 0px;
+    font-size: 32px !important;
+  }
+  .newsletter {
+    height: 20vh;
+  }
+  .signup-form {
+    width: 263px;
+    padding-top: 4vh;
+  }
+  .signup-form h1 {
+    font-size: 22px !important;
+  }
+  .signup-form input {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+
+  }
+  .paperplane {
+    right: 2%;
+    bottom: 3%;
+  }
+  .load-btn button {
+    padding: 10px 10px !important;
+    margin: -20px 0px 25px 0px;
+    font-size: 16px !important;
+  }
+  /* footer ul li {
+    margin-left: -22px;
+    margin-right: 35px;
+}
+  .offset-2 {
+    margin: 0px 47px;
+} */
+  footer{
+    margin: 0 auto;
+  }
+  footer .row, col-md-6, col-md-4, ul, li {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .footer-text{
+    display: flex;
+    justify-content: space-around;
+  }
+  .social {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 30px 6px 30px !important;
+  }
+  .offset-2 {
+    margin: 0px;
+  }
+}
